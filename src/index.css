@@ -1,0 +1,70 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #1f1f29;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f9f9f9;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.swiper-pagination-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper-pagination-bullet {
+  transform: rotate(45deg);
+  border-radius: 0;
+  height: 1em;
+  width: 1em;
+  transition: transform ease-in-out 300ms;
+  margin: 20px 60px !important;
+  opacity: 0.5;
+  background-color: #10170c;
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background-color: transparent;
+  transform: rotate(0deg);
+  height: 1em;
+  background-color: transparent;
+  width: 1em;
+  border: solid 2px rgb(32, 24, 24);
+}
+.link {
+  text-decoration: none;
+}
