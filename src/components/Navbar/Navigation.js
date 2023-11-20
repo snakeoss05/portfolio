@@ -2,7 +2,7 @@ import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
 import { useControl } from "../../Context/control";
-export default function Navigation() {
+export default function Navigation({ toggle }) {
   const { sliderState } = useControl();
   const variants = {
     open: {
@@ -17,25 +17,33 @@ export default function Navigation() {
       text: "Home",
       slide: function () {
         sliderState(0);
+        return toggle;
       },
     },
     {
       text: "About Me",
       slide: function () {
         sliderState(1);
+        return toggle;
       },
     },
     {
       text: "My Work",
       slide: function () {
         sliderState(2);
+        return toggle;
       },
     },
     {
       text: "Contact",
       slide: function () {
         sliderState(3);
+        return toggle;
       },
+    },
+    {
+      text: "My Résumé",
+      link: "myresume",
     },
   ];
 

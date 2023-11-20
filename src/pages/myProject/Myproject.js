@@ -13,14 +13,16 @@ export default function Myproject() {
       date: "october - 31 - 2022",
       title: "e-commerce-With-Js",
       tools: "javascript / css / html",
-      imgUrl: "../../assests/projectImg/127.0.0.1_5501_html_index.html.png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/127.0.0.1_5501_html_index.html.png",
       link: "#",
     },
     {
       date: "october - 26 - 2023",
       title: "e-commerce-mern-stack",
       tools: "reactjs / typescript / expressjs / mongodb",
-      imgUrl: "../../assests/projectImg/ala-kifek.netlify.app_login (1).png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/ala-kifek.netlify.app_login (1).png",
       link: "https://ala-kifek.netlify.app/",
     },
     {
@@ -28,14 +30,15 @@ export default function Myproject() {
       title: "restaurants ",
       tools: "javascript / css / html",
       imgUrl:
-        "../../assests/projectImg/_D__Download_Resturants-project_restaurants-project_index.html (3).png",
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/_D__Download_Resturants-project_restaurants-project_index.html (3).png",
       link: "#",
     },
     {
       date: "october - 8 - 2023",
       title: "react-redux-todo-app ",
       tools: "javascript / redux toolkit / expressjs",
-      imgUrl: "../../assests/projectImg/localhost_3001_ (1).png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_3001_ (1).png",
       link: "#",
     },
 
@@ -43,35 +46,40 @@ export default function Myproject() {
       date: "february - 30 - 2023",
       title: "Book-Store-MERN-Stack-main ",
       tools: "ReactJs",
-      imgUrl: "../../assests/projectImg/localhost_5173_ (11).png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_5173_ (11).png",
       link: "#",
     },
     {
       date: "September - 26 - 2023",
       title: "Live-Chat-App",
       tools: "ReactJs / ExpressJs / SocketIo",
-      imgUrl: "../../assests/projectImg/localhost_3001_ (2).png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_3001_ (2).png",
       link: "#",
     },
     {
       date: "Oct - 10 - 2023",
       title: "IT-app ",
       tools: "ReactJs / ExpressJs / MongoDb",
-      imgUrl: "../../assests/projectImg/localhost_3001_.png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_3001_.png",
       link: "#",
     },
     {
       date: "Oct - 30 - 2023",
       title: "authentication-System ",
       tools: "Angular / ExpressJs ",
-      imgUrl: "../../assests/projectImg/localhost_4200_.png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_4200_.png",
       link: "#",
     },
     {
       date: "August - 29 - 2023",
       title: "fitness-app-full-stack",
       tools: "ReactJs / expressJs / Mongodb / bootstrap",
-      imgUrl: "../../assests/projectImg/localhost_3000_.png",
+      imgUrl:
+        "https://noussaierportfolio.netlify.app/../../assests/projectImg/localhost_3000_.png",
       link: "https://royal-fitness.netlify.app/?fbclid=IwAR2gN1wByyZx1ksXfvqacyKAFdkif0kS5x7J7kZrlUeP-6u7dd6A6tdNWWM",
     },
   ];

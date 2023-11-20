@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const variants = {
   open: {
     y: 0,
@@ -24,9 +24,11 @@ export const MenuItem = ({ i }) => {
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}>
-      <p className="text-placeholder" onClick={i.slide}>
-        {i.text}
-      </p>
+      <Link to={i.link ? "/myresume" : "/"} className="link">
+        <p className="text-placeholder" onClick={i.slide}>
+          {i.text}
+        </p>
+      </Link>
     </motion.li>
   );
 };

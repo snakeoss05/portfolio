@@ -94,7 +94,7 @@ function Home() {
           <div className="profile-img">
             <motion.li className="item" variants={logo}>
               <img
-                src="../../assests/158228549_3178631269030717_2089130224997675053_n.png"
+                src="https://noussaierportfolio.netlify.app/../../assests/158228549_3178631269030717_2089130224997675053_n.png"
                 alt=""
               />
             </motion.li>
