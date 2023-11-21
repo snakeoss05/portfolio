@@ -100,26 +100,46 @@ $layout-breakpoint-small: 960px;
       button {
         border: solid 1px #4831d4;
         padding: 10px 20px;
+        position: relative;
         margin-top: 20px;
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
         transition: all ease-in 0.3s;
         color: #4831d4;
+        overflow: hidden;
         font-size: 1.2em;
-
+        transition: all 0.4s;
         background-color: transparent;
-        background-position-x: -200px;
-
+        svg {
+          stroke: #4831d4;
+          fill: #4831d4;
+          transition: all 0.4s;
+        }
+        :hover::after {
+          transform: translateX(0);
+        }
         &:hover {
-          background-color: #4831d4;
-          background-position-x: 0px;
           color: white;
         }
         &:hover svg {
           stroke: #ffffff !important;
           fill: #ffffff !important;
         }
+        ::after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          transform: translateX(-100%);
+          height: 100%;
+          width: 100%;
+          transition: transform 0.3s;
+          background-color: #4831d4;
+          z-index: -1;
+        }
+
         span {
           margin: 0 30px;
         }

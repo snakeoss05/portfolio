@@ -4,7 +4,7 @@ export default class Resume extends Component {
   render() {
     return (
       <iframe
-        src="../../assests/resume.pdf"
+        src="https://noussaierportfolio.netlify.app/../../assests/resume.pdf"
         className="resume"
         title="myresume"
         style={{ margin: "0 auto", display: "block" }}
