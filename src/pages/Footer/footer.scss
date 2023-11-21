@@ -2,8 +2,9 @@ $basic-dark-color: #3d155f;
 $basic-light-color: #f9f9f9;
 $border-radius: 50%;
 $font-size: 25px;
+$layout-breakpoint-small: 960px;
 .container {
-  margin: 60px auto 0px auto;
+  margin: 20px auto 0px auto;
   text-align: center;
 
   h1 {
@@ -123,6 +124,33 @@ $font-size: 25px;
 
     &:hover {
       border-radius: 0px;
+    }
+  }
+}
+@media (max-width: $layout-breakpoint-small) {
+  .container {
+    margin: 0px auto;
+    h2 {
+      font: {
+        family: "Roboto", sans-serif;
+        weight: 500;
+        size: 20px;
+        margin: 0px !important;
+        padding: 0px !important;
+      }
+      text-transform: uppercase;
+      color: $basic-dark-color;
+      letter-spacing: 3px;
+    }
+  }
+  .effect {
+    padding: 10px 0px 40px 0px;
+    a {
+      width: 35px;
+      height: 35px;
+    }
+    .buttons {
+      margin-top: 26px;
     }
   }
 }

@@ -75,3 +75,12 @@ ul li {
   text-decoration: none;
   color: #10170c;
 }
+.resume {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 960px) {
+  .swiper-pagination-vertical {
+    display: none;
+  }
+}
